@@ -1,0 +1,581 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		F09D28052DE706EA0099C853 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F09D27EC2DE706E90099C853 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F09D27F32DE706E90099C853;
+			remoteInfo = "MobileNet Classifier";
+		};
+		F09D280F2DE706EA0099C853 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F09D27EC2DE706E90099C853 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F09D27F32DE706E90099C853;
+			remoteInfo = "MobileNet Classifier";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F09D27F42DE706E90099C853 /* MobileNet Classifier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MobileNet Classifier.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F09D28042DE706EA0099C853 /* MobileNet ClassifierTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MobileNet ClassifierTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F09D280E2DE706EA0099C853 /* MobileNet ClassifierUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MobileNet ClassifierUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		F0928ED32DEF046500BC5D17 /* Exceptions for "MobileNet Classifier" folder in "MobileNet Classifier" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"Icon",
+				"Preview Content/Icon\n",
+			);
+			target = F09D27F32DE706E90099C853 /* MobileNet Classifier */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		F09D27F62DE706E90099C853 /* MobileNet Classifier */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				F0928ED32DEF046500BC5D17 /* Exceptions for "MobileNet Classifier" folder in "MobileNet Classifier" target */,
+			);
+			path = "MobileNet Classifier";
+			sourceTree = "<group>";
+		};
+		F09D28072DE706EA0099C853 /* MobileNet ClassifierTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "MobileNet ClassifierTests";
+			sourceTree = "<group>";
+		};
+		F09D28112DE706EA0099C853 /* MobileNet ClassifierUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "MobileNet ClassifierUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F09D27F12DE706E90099C853 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F09D28012DE706EA0099C853 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F09D280B2DE706EA0099C853 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F09D27EB2DE706E90099C853 = {
+			isa = PBXGroup;
+			children = (
+				F09D27F62DE706E90099C853 /* MobileNet Classifier */,
+				F09D28072DE706EA0099C853 /* MobileNet ClassifierTests */,
+				F09D28112DE706EA0099C853 /* MobileNet ClassifierUITests */,
+				F09D27F52DE706E90099C853 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F09D27F52DE706E90099C853 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F09D27F42DE706E90099C853 /* MobileNet Classifier.app */,
+				F09D28042DE706EA0099C853 /* MobileNet ClassifierTests.xctest */,
+				F09D280E2DE706EA0099C853 /* MobileNet ClassifierUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F09D27F32DE706E90099C853 /* MobileNet Classifier */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F09D28182DE706EA0099C853 /* Build configuration list for PBXNativeTarget "MobileNet Classifier" */;
+			buildPhases = (
+				F09D27F02DE706E90099C853 /* Sources */,
+				F09D27F12DE706E90099C853 /* Frameworks */,
+				F09D27F22DE706E90099C853 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				F09D27F62DE706E90099C853 /* MobileNet Classifier */,
+			);
+			name = "MobileNet Classifier";
+			packageProductDependencies = (
+			);
+			productName = "MobileNet Classifier";
+			productReference = F09D27F42DE706E90099C853 /* MobileNet Classifier.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F09D28032DE706EA0099C853 /* MobileNet ClassifierTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F09D281B2DE706EA0099C853 /* Build configuration list for PBXNativeTarget "MobileNet ClassifierTests" */;
+			buildPhases = (
+				F09D28002DE706EA0099C853 /* Sources */,
+				F09D28012DE706EA0099C853 /* Frameworks */,
+				F09D28022DE706EA0099C853 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F09D28062DE706EA0099C853 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F09D28072DE706EA0099C853 /* MobileNet ClassifierTests */,
+			);
+			name = "MobileNet ClassifierTests";
+			packageProductDependencies = (
+			);
+			productName = "MobileNet ClassifierTests";
+			productReference = F09D28042DE706EA0099C853 /* MobileNet ClassifierTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F09D280D2DE706EA0099C853 /* MobileNet ClassifierUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F09D281E2DE706EA0099C853 /* Build configuration list for PBXNativeTarget "MobileNet ClassifierUITests" */;
+			buildPhases = (
+				F09D280A2DE706EA0099C853 /* Sources */,
+				F09D280B2DE706EA0099C853 /* Frameworks */,
+				F09D280C2DE706EA0099C853 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F09D28102DE706EA0099C853 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F09D28112DE706EA0099C853 /* MobileNet ClassifierUITests */,
+			);
+			name = "MobileNet ClassifierUITests";
+			packageProductDependencies = (
+			);
+			productName = "MobileNet ClassifierUITests";
+			productReference = F09D280E2DE706EA0099C853 /* MobileNet ClassifierUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F09D27EC2DE706E90099C853 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					F09D27F32DE706E90099C853 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					F09D28032DE706EA0099C853 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = F09D27F32DE706E90099C853;
+					};
+					F09D280D2DE706EA0099C853 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = F09D27F32DE706E90099C853;
+					};
+				};
+			};
+			buildConfigurationList = F09D27EF2DE706E90099C853 /* Build configuration list for PBXProject "MobileNet Classifier" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F09D27EB2DE706E90099C853;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = F09D27F52DE706E90099C853 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F09D27F32DE706E90099C853 /* MobileNet Classifier */,
+				F09D28032DE706EA0099C853 /* MobileNet ClassifierTests */,
+				F09D280D2DE706EA0099C853 /* MobileNet ClassifierUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F09D27F22DE706E90099C853 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F09D28022DE706EA0099C853 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F09D280C2DE706EA0099C853 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F09D27F02DE706E90099C853 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F09D28002DE706EA0099C853 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F09D280A2DE706EA0099C853 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F09D28062DE706EA0099C853 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F09D27F32DE706E90099C853 /* MobileNet Classifier */;
+			targetProxy = F09D28052DE706EA0099C853 /* PBXContainerItemProxy */;
+		};
+		F09D28102DE706EA0099C853 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F09D27F32DE706E90099C853 /* MobileNet Classifier */;
+			targetProxy = F09D280F2DE706EA0099C853 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F09D28162DE706EA0099C853 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F09D28172DE706EA0099C853 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F09D28192DE706EA0099C853 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MobileNet Classifier/Preview Content\"";
+				DEVELOPMENT_TEAM = JBXCNSGY9Y;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "MobileNet-Classifier-Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Use camera";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sam-greenfield.MobileNet-Classifier";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F09D281A2DE706EA0099C853 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MobileNet Classifier/Preview Content\"";
+				DEVELOPMENT_TEAM = JBXCNSGY9Y;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "MobileNet-Classifier-Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Use camera";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sam-greenfield.MobileNet-Classifier";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F09D281C2DE706EA0099C853 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JBXCNSGY9Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sam-greenfield.MobileNet-ClassifierTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MobileNet Classifier.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MobileNet Classifier";
+			};
+			name = Debug;
+		};
+		F09D281D2DE706EA0099C853 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JBXCNSGY9Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sam-greenfield.MobileNet-ClassifierTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MobileNet Classifier.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MobileNet Classifier";
+			};
+			name = Release;
+		};
+		F09D281F2DE706EA0099C853 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JBXCNSGY9Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sam-greenfield.MobileNet-ClassifierUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "MobileNet Classifier";
+			};
+			name = Debug;
+		};
+		F09D28202DE706EA0099C853 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JBXCNSGY9Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sam-greenfield.MobileNet-ClassifierUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "MobileNet Classifier";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F09D27EF2DE706E90099C853 /* Build configuration list for PBXProject "MobileNet Classifier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F09D28162DE706EA0099C853 /* Debug */,
+				F09D28172DE706EA0099C853 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F09D28182DE706EA0099C853 /* Build configuration list for PBXNativeTarget "MobileNet Classifier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F09D28192DE706EA0099C853 /* Debug */,
+				F09D281A2DE706EA0099C853 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F09D281B2DE706EA0099C853 /* Build configuration list for PBXNativeTarget "MobileNet ClassifierTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F09D281C2DE706EA0099C853 /* Debug */,
+				F09D281D2DE706EA0099C853 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F09D281E2DE706EA0099C853 /* Build configuration list for PBXNativeTarget "MobileNet ClassifierUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F09D281F2DE706EA0099C853 /* Debug */,
+				F09D28202DE706EA0099C853 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F09D27EC2DE706E90099C853 /* Project object */;
+}
