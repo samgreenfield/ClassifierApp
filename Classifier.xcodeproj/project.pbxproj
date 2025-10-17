@@ -24,29 +24,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		F09D27F42DE706E90099C853 /* MobileNet Classifier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MobileNet Classifier.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F09D28042DE706EA0099C853 /* MobileNet ClassifierTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MobileNet ClassifierTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F09D280E2DE706EA0099C853 /* MobileNet ClassifierUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MobileNet ClassifierUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F09D27F42DE706E90099C853 /* Classifier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Classifier.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F09D28042DE706EA0099C853 /* ClassifierTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClassifierTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F09D280E2DE706EA0099C853 /* ClassifierUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClassifierUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		F0928ED32DEF046500BC5D17 /* Exceptions for "MobileNet Classifier" folder in "MobileNet Classifier" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				"Icon",
-				"Preview Content/Icon\n",
-			);
-			target = F09D27F32DE706E90099C853 /* MobileNet Classifier */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		F09D27F62DE706E90099C853 /* MobileNet Classifier */ = {
+		F09D27F62DE706E90099C853 /* Classifier */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				F0928ED32DEF046500BC5D17 /* Exceptions for "MobileNet Classifier" folder in "MobileNet Classifier" target */,
-			);
-			path = "MobileNet Classifier";
+			path = Classifier;
 			sourceTree = "<group>";
 		};
 		F09D28072DE706EA0099C853 /* MobileNet ClassifierTests */ = {
@@ -89,7 +75,7 @@
 		F09D27EB2DE706E90099C853 = {
 			isa = PBXGroup;
 			children = (
-				F09D27F62DE706E90099C853 /* MobileNet Classifier */,
+				F09D27F62DE706E90099C853 /* Classifier */,
 				F09D28072DE706EA0099C853 /* MobileNet ClassifierTests */,
 				F09D28112DE706EA0099C853 /* MobileNet ClassifierUITests */,
 				F09D27F52DE706E90099C853 /* Products */,
@@ -99,9 +85,9 @@
 		F09D27F52DE706E90099C853 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F09D27F42DE706E90099C853 /* MobileNet Classifier.app */,
-				F09D28042DE706EA0099C853 /* MobileNet ClassifierTests.xctest */,
-				F09D280E2DE706EA0099C853 /* MobileNet ClassifierUITests.xctest */,
+				F09D27F42DE706E90099C853 /* Classifier.app */,
+				F09D28042DE706EA0099C853 /* ClassifierTests.xctest */,
+				F09D280E2DE706EA0099C853 /* ClassifierUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -109,9 +95,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F09D27F32DE706E90099C853 /* MobileNet Classifier */ = {
+		F09D27F32DE706E90099C853 /* Classifier */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F09D28182DE706EA0099C853 /* Build configuration list for PBXNativeTarget "MobileNet Classifier" */;
+			buildConfigurationList = F09D28182DE706EA0099C853 /* Build configuration list for PBXNativeTarget "Classifier" */;
 			buildPhases = (
 				F09D27F02DE706E90099C853 /* Sources */,
 				F09D27F12DE706E90099C853 /* Frameworks */,
@@ -122,18 +108,18 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				F09D27F62DE706E90099C853 /* MobileNet Classifier */,
+				F09D27F62DE706E90099C853 /* Classifier */,
 			);
-			name = "MobileNet Classifier";
+			name = Classifier;
 			packageProductDependencies = (
 			);
 			productName = "MobileNet Classifier";
-			productReference = F09D27F42DE706E90099C853 /* MobileNet Classifier.app */;
+			productReference = F09D27F42DE706E90099C853 /* Classifier.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F09D28032DE706EA0099C853 /* MobileNet ClassifierTests */ = {
+		F09D28032DE706EA0099C853 /* ClassifierTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F09D281B2DE706EA0099C853 /* Build configuration list for PBXNativeTarget "MobileNet ClassifierTests" */;
+			buildConfigurationList = F09D281B2DE706EA0099C853 /* Build configuration list for PBXNativeTarget "ClassifierTests" */;
 			buildPhases = (
 				F09D28002DE706EA0099C853 /* Sources */,
 				F09D28012DE706EA0099C853 /* Frameworks */,
@@ -147,16 +133,16 @@
 			fileSystemSynchronizedGroups = (
 				F09D28072DE706EA0099C853 /* MobileNet ClassifierTests */,
 			);
-			name = "MobileNet ClassifierTests";
+			name = ClassifierTests;
 			packageProductDependencies = (
 			);
 			productName = "MobileNet ClassifierTests";
-			productReference = F09D28042DE706EA0099C853 /* MobileNet ClassifierTests.xctest */;
+			productReference = F09D28042DE706EA0099C853 /* ClassifierTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		F09D280D2DE706EA0099C853 /* MobileNet ClassifierUITests */ = {
+		F09D280D2DE706EA0099C853 /* ClassifierUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F09D281E2DE706EA0099C853 /* Build configuration list for PBXNativeTarget "MobileNet ClassifierUITests" */;
+			buildConfigurationList = F09D281E2DE706EA0099C853 /* Build configuration list for PBXNativeTarget "ClassifierUITests" */;
 			buildPhases = (
 				F09D280A2DE706EA0099C853 /* Sources */,
 				F09D280B2DE706EA0099C853 /* Frameworks */,
@@ -170,11 +156,11 @@
 			fileSystemSynchronizedGroups = (
 				F09D28112DE706EA0099C853 /* MobileNet ClassifierUITests */,
 			);
-			name = "MobileNet ClassifierUITests";
+			name = ClassifierUITests;
 			packageProductDependencies = (
 			);
 			productName = "MobileNet ClassifierUITests";
-			productReference = F09D280E2DE706EA0099C853 /* MobileNet ClassifierUITests.xctest */;
+			productReference = F09D280E2DE706EA0099C853 /* ClassifierUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -200,7 +186,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F09D27EF2DE706E90099C853 /* Build configuration list for PBXProject "MobileNet Classifier" */;
+			buildConfigurationList = F09D27EF2DE706E90099C853 /* Build configuration list for PBXProject "Classifier" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -214,9 +200,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F09D27F32DE706E90099C853 /* MobileNet Classifier */,
-				F09D28032DE706EA0099C853 /* MobileNet ClassifierTests */,
-				F09D280D2DE706EA0099C853 /* MobileNet ClassifierUITests */,
+				F09D27F32DE706E90099C853 /* Classifier */,
+				F09D28032DE706EA0099C853 /* ClassifierTests */,
+				F09D280D2DE706EA0099C853 /* ClassifierUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -272,12 +258,12 @@
 /* Begin PBXTargetDependency section */
 		F09D28062DE706EA0099C853 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F09D27F32DE706E90099C853 /* MobileNet Classifier */;
+			target = F09D27F32DE706E90099C853 /* Classifier */;
 			targetProxy = F09D28052DE706EA0099C853 /* PBXContainerItemProxy */;
 		};
 		F09D28102DE706EA0099C853 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F09D27F32DE706E90099C853 /* MobileNet Classifier */;
+			target = F09D27F32DE706E90099C853 /* Classifier */;
 			targetProxy = F09D280F2DE706EA0099C853 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -479,7 +465,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MobileNet Classifier.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MobileNet Classifier";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Classifier.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Classifier";
 			};
 			name = Debug;
 		};
@@ -498,7 +484,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MobileNet Classifier.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MobileNet Classifier";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Classifier.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Classifier";
 			};
 			name = Release;
 		};
@@ -539,7 +525,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F09D27EF2DE706E90099C853 /* Build configuration list for PBXProject "MobileNet Classifier" */ = {
+		F09D27EF2DE706E90099C853 /* Build configuration list for PBXProject "Classifier" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F09D28162DE706EA0099C853 /* Debug */,
@@ -548,7 +534,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F09D28182DE706EA0099C853 /* Build configuration list for PBXNativeTarget "MobileNet Classifier" */ = {
+		F09D28182DE706EA0099C853 /* Build configuration list for PBXNativeTarget "Classifier" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F09D28192DE706EA0099C853 /* Debug */,
@@ -557,7 +543,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F09D281B2DE706EA0099C853 /* Build configuration list for PBXNativeTarget "MobileNet ClassifierTests" */ = {
+		F09D281B2DE706EA0099C853 /* Build configuration list for PBXNativeTarget "ClassifierTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F09D281C2DE706EA0099C853 /* Debug */,
@@ -566,7 +552,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F09D281E2DE706EA0099C853 /* Build configuration list for PBXNativeTarget "MobileNet ClassifierUITests" */ = {
+		F09D281E2DE706EA0099C853 /* Build configuration list for PBXNativeTarget "ClassifierUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F09D281F2DE706EA0099C853 /* Debug */,
