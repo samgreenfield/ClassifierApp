@@ -8,15 +8,7 @@ The classifier application is developed in Swift and showcases*on-device machine
 
 The application provides a primary label (as seen on the device screen) and detailed scores for the top five predictions (available in the Xcode console):
 
-| **Prediction** | **Score** |
-| :--- | :--- |
-| **computer keyboard** | $9.2265625$ |
-| space bar | $8.9296875$ |
-| notebook | $8.59375$ |
-| laptop | $8.046875$ |
-| mouse | $5.7265625$ |
-
----
+<img width="1088" height="494" alt="Screenshot 2025-10-16 at 8 24 06 PM" src="https://github.com/user-attachments/assets/a7deba3f-dc42-45d7-a1ea-250d693d3420" />
 
 ## Technology Stack
 
